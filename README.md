@@ -1,2 +1,2 @@
 # lamija-resume
-My resume.
+Web page: https://ironicna.github.io/lamija-resume/
