@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--
-About the web page:
-Author: Lamija Bostandzic
-Course: Web Application Development
-Date: 27 Oct 2019
-Version: 1.0
-    -->
-<title>My resume</title>
-<meta charset="UTF-8">
-<meta name="author" content="Lamija Bostandzic">
-<meta name="description" content="Resume">
-<meta name="keywords" content="resume, personal website">
-<meta name="last modified" content=""
+        <!--
+    About the web page:
+    Author: Lamija Bostandzic
+    Course: Web Application Development
+    Date: 18 Nov 2019
+    Version: 1.1
+        -->
+    <title>My resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Lamija Bostandzic">
+    <meta name="description" content="Resume">
+    <meta name="keywords" content="resume, personal website">
+    <meta name="last modified" content=""
 </head>
 
 <body lang="eng">
+    <nav class="nav">
+        <ul class="navlist">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#bottom">Contact</a></li>
+            <li><a href="version1.html">Version 1</a></li>
+        </ul>
+    </nav>
     <div class="top">
-        <header>
-            <h1>Hi, I'm Lamija Bostandzic.</h1>
+        <header class="intro">
+            <h1><strong>Hi, I'm Lamija Bostandzic.</strong></h1>
             <h3>Welcome to my resume.</h3>
-            <hr>
         </header>
     </div>
-    <div id="about">
+    <div class="about">
         <h2>About me.</h2>
         <img src="pic.jpg" alt="My photo" width="200" height="200">
         <p>
@@ -32,7 +43,7 @@ Version: 1.0
         </p>
         <hr>
     </div>
-    <div id="education">
+    <div class="education">
         <h2>Education.</h2>
         <ul>
             <li>
@@ -70,7 +81,7 @@ Version: 1.0
         </ul>
         <hr>
     </div>
-    <div id="experience">
+    <div class="experience">
         <h2>Experience.</h2>
             <ul>
                 <li><strong>EPBiH Hackathon 2018</strong> <em> (Dec 2018)</em></li>
@@ -91,7 +102,7 @@ Version: 1.0
             </ul>
         <hr>
     </div>
-    <div id="skills">
+    <div class="skills">
         <h2>Skills.</h2>
         <ul>
             <li>Organization</li>
@@ -100,7 +111,7 @@ Version: 1.0
             <li>Teamwork</li>
             <li>Communication skills</li>
         </ul>
-        <div id="Technologies">
+        <div class="Technologies">
             <h3>Technologies.</h3>
             <ul>
                 <li>HTML</li>
@@ -112,7 +123,7 @@ Version: 1.0
                 <li>MS Office</li>
             </ul>
         </div>
-        <div id="languages">
+        <div class="languages">
             <h3>Languages.</h3>
             <table>
                 <thead>
@@ -147,14 +158,15 @@ Version: 1.0
         </div>
         <hr>    
     </div>
-    <div id="bottom">
-        <footer>
-            <address>
+    <div class="bottom">
+        <address>
                 <h3>Contant info.</h3>
                 Email me: <a href="mailto:lamija.bostandzic@gmail.com">Lamija Bostandzic</a><br>
                 LinkedIn: <a href="https://www.linkedin.com/in/lamija-bostandzic">Lamija Bostandzic</a>
-            </address>
-        </footer>
+        </address>
     </div> 
+    <footer>
+        <p>Created for CS412 Web Application Development</p>
+    </footer>
 </body>
 </html>
