@@ -1,132 +1,40 @@
-#intro {
-    text-align: center;
-    padding: 20px;
-    margin-top: 65px;
-    background-color: pink;
-  }
-  
-  #intro .jumbotron {
-    max-width: 800px;
-    margin: 0 auto;
-    border-radius: 20px;
-    padding: 40px;
-    background-color: rgba(255,255,255,0.75;
-  }
-  
-  @media (min-width: 576px) {
-    #intro .jumbotron {
-      padding: 20px;
-    }
-  }
-  
-  @media (min-width: 576px) {
-    #intro {
-      padding: 20px;
-    }
-  }
-  
-  body {
-    font-family: Georgia, "Times New Roman", Times, Serif;
-  }
-  
-  .container-content {
-    text-align: center;
-    padding: 60px 0;
-  }
-  
-  #about p {
-    padding-top: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  .container-content h1 {
-    font-weight: normal;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  #me img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-  }
-  
-  .table {
-    background-color: #fff;
-    color: #pink;
-    font-size: 16px;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-  
-  .table p {
-    margin-bottom: 0;
-    color: #7d8285;
-  }
-  
-  .table .list {
-    padding: 50px 0;
-  }
-  
-  .table .item {
-    margin-bottom: 30px;
-  }
-  
-  .table .item .box {
-    position: relative;
-    overflow: hidden;
-    text-align: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 280px;
-  }
-  
-  .table .item .school {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255,192,203,0.75);
-    transition: opacity 0.15s ease-in;
-    opacity: 0;
-    color: #fff;
-    padding-top: 80px;
-    text-shadow: 1 px 1px 1px rgba(0,0,0,0.15);
-  }
-  
-  .table .item:hover .school {
-    opacity: 1;
-  }
-  
-  .table .item .institution {
-    margin-bottom: 8px;
-    font-weight: bold;
-  }
-  
-  .table .item .details {
-    color: #bbd8fb;
-    letter-spacing: normal;
-    font-size: 13px;
-    margin-bottom: 20px;
-  }
-  
-  .table .item .druga {
-    background-image: url(druga.jpg);
-  }
-  
-  .table .item .ius {
-    background-image: url(ius.png);
-  }
+.container {
+    width: max-content;
+    background: pink;
+    margin: auto;
+}
 
-  .table .item .itu {
-      background-image: url(itu.jpg);
-  }
-  .text-center.pad {
-    padding-top: 30px;
-    font-size: 32px;
-  }
+.display {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 60px;
+    background-color: pink;
+    font-size: 58px;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+button {
+    flex: 1 25%
+}
+
+.btn-operator {
+    background-color: dimgray;
+}
+
+.btn-no {
+    background-color: lightgrey;
+}
+
+.btn-clr {
+    background-color: lightcoral;
+}
+
+.btn-eql {
+    background-color: lightgreen;
+}
