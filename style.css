@@ -116,9 +116,16 @@
   }
   
   .table .item .druga {
-    background-image: druga.jpg;
+    background-image: url(druga.jpg);
   }
   
+  .table .item .ius {
+    background-image: url(ius.png);
+  }
+
+  .table .item .itu {
+      background-image: url(itu.jpg);
+  }
   .text-center.pad {
     padding-top: 30px;
     font-size: 32px;
