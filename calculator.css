@@ -8,6 +8,7 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    max-width: 400px;
     height: 60px;
     background-color: pink;
     font-size: 58px;
